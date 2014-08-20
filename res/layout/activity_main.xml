@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/layoutOutSide"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ListView 
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:dividerHeight="3dp"/>
+ 
+    
+    <!-- 这个View 的占位View  在 ListView 里， 所以 为了两个View 位置 贴合， 需要设置 位置 跟 ListView 看齐 -->
+    
+    <!-- <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/stickyTextView"
+        android:layout_margin="5dp"
+        android:text="这是要悬停的View" /> -->
+    
+    
+    
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/stickyButton"
+        android:text="这是要悬停的按钮" />
+</FrameLayout>
+
